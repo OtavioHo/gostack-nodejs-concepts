@@ -90,7 +90,7 @@ _Edit repository._
     _/repositories/:id_
 
 * **Method**
-    <_`PUT`_>
+    _`PUT`_
 
 * **Data Params**
     - title: `string`
@@ -124,7 +124,7 @@ _Delete repository._
     _/repositories/:id_
 
 * **Method**
-    _`Delete`_
+    _`DELETE`_
 
 * **Success Response:**
     * **Code:** 204 <br />
