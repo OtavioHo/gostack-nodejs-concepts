@@ -18,17 +18,17 @@ Challenge description: https://github.com/Rocketseat/bootcamp-gostack-desafios/t
 ## API
 **Show repositories**
 ----
-<_Show all added repositories._>
+_Show all added repositories._
 
 * **URL**
 
-    <_/repositories_>
+    _/repositories_
 
 * **Method**
-    <_`GET`_>
+    _`GET`_
 
 * **Success Response:**
-    <_An array with all repositories_>
+    _An array with all repositories_
     
     * **Code:** 200 <br />
       **Content:**
@@ -49,14 +49,14 @@ Challenge description: https://github.com/Rocketseat/bootcamp-gostack-desafios/t
 
 **Add repository**
 ----
-<_Create new repository._>
+_Create new repository._
 
 * **URL**
 
-    <_/repositories_>
+    _/repositories_
 
 * **Method**
-    <_`POST`_>
+    _`POST`_
 
 * **Data Params**
     - title: `string`
@@ -64,7 +64,7 @@ Challenge description: https://github.com/Rocketseat/bootcamp-gostack-desafios/t
     - techs: `array<strings>`
 
 * **Success Response:**
-    <_An object with the added repository._>
+    _An object with the added repository._
     
     * **Code:** 200 <br />
       **Content:**
@@ -83,11 +83,11 @@ Challenge description: https://github.com/Rocketseat/bootcamp-gostack-desafios/t
 
 **Edit repository**
 ----
-<_Edit repository._>
+_Edit repository._
 
 * **URL**
 
-    <_/repositories/:id_>
+    _/repositories/:id_
 
 * **Method**
     <_`PUT`_>
@@ -98,7 +98,7 @@ Challenge description: https://github.com/Rocketseat/bootcamp-gostack-desafios/t
     - techs: `array<strings>`
 
 * **Success Response:**
-    <_An object with the added repository._>
+    _An object with the added repository._
     
     * **Code:** 200 <br />
       **Content:**
@@ -117,31 +117,31 @@ Challenge description: https://github.com/Rocketseat/bootcamp-gostack-desafios/t
 
 **Delete repository**
 ----
-<_Delete repository._>
+_Delete repository._
 
 * **URL**
 
-    <_/repositories/:id_>
+    _/repositories/:id_
 
 * **Method**
-    <_`Delete`_>
+    _`Delete`_
 
 * **Success Response:**
     * **Code:** 204 <br />
 
 **Like repository**
 ----
-<_Show all added repositories._>
+_Show all added repositories._
 
 * **URL**
 
-    <_/repositories/:id_>
+    _/repositories/:id_
 
 * **Method**
-    <_`POST`_>
+    _`POST`_
 
 * **Success Response:**
-    <_An object with the liked repository._>
+    _An object with the liked repository._
     
     * **Code:** 200 <br />
       **Content:**
