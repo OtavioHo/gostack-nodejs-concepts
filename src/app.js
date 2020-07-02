@@ -51,7 +51,7 @@ app.delete("/repositories/:id", repoExists, (request, response) => {
 
   repositories.splice(index, 1);
 
-  return response.status(204)
+  return response.status(204).json({success: true})
 });
 
 app.post("/repositories/:id/like", repoExists, (request, response) => {
